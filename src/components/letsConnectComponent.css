@@ -1,0 +1,115 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.letsConnect {
+  width: 100%;
+  min-height: 100vh;
+  background: #000000;
+  color: white;
+  padding: 25px 100px;
+}
+
+.letsConnect-content {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding: 10px;
+  padding-left: 40px;
+}
+
+.tab-links {
+  font-size: 20px;
+  padding: 10px 60px;
+  cursor: pointer;
+  opacity: 0.6;
+  background: black;
+  color: white;
+  border: 0;
+  outline: 0;
+}
+
+.tab-links.active {
+  border-bottom: 2px solid white;
+  opacity: 1;
+}
+
+.tabgroup {
+  display: flex;
+  z-index: 1;
+}
+
+.tab-content {
+  display: flex;
+}
+
+.tab-panel {
+  width: 100%;
+  display: flex;
+}
+.form {
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  padding: 25px 5px;
+}
+
+.form-input {
+  margin: 10px;
+  padding: 10px 25px;
+  font-size: 18px;
+  background: transparent;
+  color: white;
+  border: 0px;
+  border-bottom: 1px solid white;
+  box-shadow: 1px;
+}
+
+.form-textarea {
+  margin: 10px;
+  padding: 10px 25px;
+  font-size: 18px;
+  background: transparent;
+  color: white;
+  border: 0px;
+  border-bottom: 1px solid white;
+  box-shadow: 1px;
+}
+
+.resume {
+  padding-left: 32px;
+  font-size: 18px;
+  color: grey;
+}
+
+#upload {
+  padding: 10px;
+  border: 0px;
+}
+
+.submit {
+  margin-top: 15px;
+  width: 120px;
+  height: 50px;
+  padding: 8px;
+  border-radius: 25px;
+  background: transparent;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  border: 3px solid grey;
+}
+
+.submit:hover {
+  background: #f9be00;
+  color: black;
+}
+
+.letsConnect-right {
+  width: 100%;
+  height: auto;
+  padding: 25px;
+  margin-top: 250px;
+  position: relative;
+}

@@ -1,0 +1,439 @@
+.logo-img {
+  width: 100px;
+}
+
+.about_navbar {
+  background: transparent;
+  transition: 0.5s;
+  transition-delay: 0.5s;
+  -webkit-transition-delay: 0.5s;
+  animation: fadeout 1s;
+  -webkit-animation: fadeout 1s;
+  -moz-animation: fadeout 1s;
+  position: absolute;
+  top: 0px;
+  z-index: 10;
+  width: 100%;
+}
+
+.about_navbar:hover {
+  background: #fabe00;
+  transition: 1s;
+}
+
+.top-container {
+  height: 100vh;
+}
+
+a {
+  color: inherit;
+}
+
+.slide1 {
+  width: 50vw;
+}
+
+#media {
+  padding: 35px;
+  padding-top: 60%;
+  position: relative;
+  align-content: end;
+  height: 100%;
+}
+
+.description {
+  text-align: left;
+  word-wrap: break-word;
+}
+
+.slide2 {
+  width: 100vw;
+  height: 100vh;
+}
+
+.bg-img1 {
+  background: linear-gradient(rgba(250, 190, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../images/strip1.jpg);
+  background-repeat: no-repeat, repeat;
+  background-size: cover;
+}
+.bg-img2 {
+  background: linear-gradient(rgba(250, 190, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../images/strip2.jpg);
+  background-repeat: no-repeat, repeat;
+  background-size: cover;
+}
+.bg-img3 {
+  background: linear-gradient(rgba(250, 190, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../images/strip3.jpg);
+  background-repeat: no-repeat, repeat;
+  background-size: cover;
+}
+.bg-img4 {
+  background: linear-gradient(rgba(250, 190, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../images/strip4.jpg);
+  background-repeat: no-repeat, repeat;
+  background-size: cover;
+}
+
+.home-wrapper {
+  display: flex;
+  flex-direction: row;
+  width: 150vw;
+  transform: rotate(90deg) translateY(-100vh);
+  transform-origin: top left;
+}
+.one {
+  background: #fabe00;
+}
+.two {
+  background: #fabe00;
+}
+.three {
+  background: #0bbaa0;
+}
+.four {
+  background: #00dfdf;
+}
+
+.outer-wrapper {
+  width: 100vh;
+  height: 100vw;
+  transform: rotate(-90deg) translateX(-100vh);
+  transform-origin: top left;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  position: absolute;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* /////////////////////////////////////////////////////////// */
+
+.courseContainer {
+  position: relative;
+}
+
+.courseContainer .courseCard {
+  position: relative;
+  width: 25vw;
+  height: 100vh;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.courseContainer .courseCard:hover:before {
+  clip-path: circle(300px at 80% -20%);
+}
+
+.courseContainer .courseCard:after {
+  position: absolute;
+  top: 30%;
+  left: -20%;
+  font-size: 12em;
+  font-weight: 800;
+  font-style: italic;
+  color: rgba(255, 255, 255, 0.04);
+}
+
+.courseContainer .courseCard .imgBx {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 9;
+  width: 100%;
+  height: 100%;
+  transition: 0.5s;
+}
+
+.courseContainer .courseCard:hover .imgBx {
+  top: 0%;
+  transform: translateY(-25%);
+  /* bug  */
+}
+
+.courseContainer .courseCard .imgBx img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(20deg);
+  width: 270px;
+}
+
+.courseContainer .courseCard .courseContent {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  transition: 1s;
+  z-index: 10;
+}
+
+.courseContainer .courseCard:hover .courseContent {
+  height: 210px;
+}
+
+.courseContainer .courseCard .courseContent h2 {
+  position: relative;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #fff;
+}
+
+.courseContainer .courseCard .courseContent .courseDesc,
+.courseContainer .courseCard .courseContent .color {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding: 8px 20px;
+  transition: 0.5s;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.courseContainer .courseCard:hover .courseContent .courseDesc {
+  opacity: 1;
+  visibility: visible;
+  transition-delay: 0.5s;
+}
+
+.courseContainer .courseCard:hover .courseContent .color {
+  opacity: 1;
+  visibility: visible;
+  transition-delay: 0.6s;
+}
+
+.courseContainer .courseCard .courseContent .courseDesc h3,
+.courseContainer .courseCard .courseContent .color h3 {
+  color: white;
+  font-weight: 500;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-right: 10px;
+}
+
+.courseContainer .courseCard .courseContent .courseDesc span {
+  width: 26px;
+  height: 26px;
+  text-align: center;
+  line-height: 26px;
+  font-size: 20px;
+  display: inline-block;
+  color: #111;
+  background: #fff;
+  margin: 0 5px;
+  transition: 0.5s;
+  color: #111;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.courseContainer .courseCard .courseContent .courseDesc span:hover {
+  /* other bug */
+  background: #b90000;
+}
+
+.courseContainer .courseCard .courseContent .color span {
+  width: 20px;
+  height: 20px;
+  background: #ff0;
+  border-radius: 50%;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.courseContainer .courseCard .courseContent .color span:nth-child(2) {
+  background: #1bbfe9;
+}
+
+.courseContainer .courseCard .courseContent .color span:nth-child(3) {
+  background: #1b2fe9;
+}
+
+.courseContainer .courseCard .courseContent .color span:nth-child(4) {
+  background: #080481;
+}
+
+.courseContainer .courseCard .courseContent a {
+  display: inline-block;
+  border-radius: 4px;
+  padding: 20px 21px;
+  background: border-box;
+  color: #fabe00;
+  text-decoration: none;
+  font-weight: 600;
+  opacity: 0;
+  transform: translateY(50px);
+  transition: 0.5s;
+  text-align: center;
+  width: 100%;
+}
+
+.courseContainer .courseCard:hover .courseContent a {
+  opacity: 1;
+  transform: translateY(0px);
+  transition-delay: 0.7s;
+}
+.myrow {
+  width: 100vw !important;
+  display: flex;
+}
+
+.home-yo-div {
+  padding: 15% 8% 0%;
+}
+
+.courseTitle {
+  margin-top: -22.7%;
+  padding: 20px 20px;
+}
+
+.slick-slide {
+  margin: 0px 20px;
+}
+
+.slick-slide img {
+  width: 100%;
+}
+
+.slick-slider {
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
+  -khtml-user-select: none;
+  -ms-touch-action: pan-y;
+  touch-action: pan-y;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.slick-list {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+.slick-list:focus {
+  outline: none;
+}
+.slick-list.dragging {
+  cursor: pointer;
+  cursor: hand;
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list {
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+.slick-track {
+  position: relative;
+  top: 0;
+  left: 0;
+  display: block;
+}
+.slick-track:before,
+.slick-track:after {
+  display: table;
+  content: "";
+}
+.slick-track:after {
+  clear: both;
+}
+.slick-loading .slick-track {
+  visibility: hidden;
+}
+
+.slick-slide {
+  display: none;
+  float: left;
+  height: 100%;
+  min-height: 1px;
+}
+[dir="rtl"] .slick-slide {
+  float: right;
+}
+.slick-slide img {
+  display: block;
+}
+.slick-slide.slick-loading img {
+  display: none;
+}
+.slick-slide.dragging img {
+  pointer-events: none;
+}
+.slick-initialized .slick-slide {
+  display: block;
+}
+.slick-loading .slick-slide {
+  visibility: hidden;
+}
+.slick-vertical .slick-slide {
+  display: block;
+  height: auto;
+  border: 1px solid transparent;
+}
+.slick-arrow.slick-hidden {
+  display: none;
+}
+
+.who_we_are {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding: 10%;
+  margin: auto;
+}
+
+.who_title {
+  color: black;
+  padding: 25px;
+  width: 100%;
+  height: auto;
+}
+
+.who_desc {
+  color: black;
+  font-family: sans-serif;
+  font-size: 20px;
+  padding: 25px;
+  text-align: justify;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-flow: row;
+  gap: 5%;
+}
+
+.who_text {
+  width: 60%;
+  height: 100%;
+}
+
+.who_img {
+  width: 35%;
+  height: 100%;
+}
+
+.who_img > img {
+  width: 100%;
+  height: 100%;
+}

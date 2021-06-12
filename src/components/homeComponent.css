@@ -1,0 +1,14 @@
+footer {
+  position: relative;
+  background-color: #17161a;
+  color: grey;
+  width: 100%;
+  bottom: 0px;
+  height: 70px;
+  text-align: center;
+  padding: 20px;
+}
+
+footer > h4 {
+  font-size: 18px;
+}

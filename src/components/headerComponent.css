@@ -1,0 +1,114 @@
+header {
+  position: relative;
+  top: 0px;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  background: #202020;
+}
+.header-content {
+  padding-top: 100px;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 38% 62%;
+}
+
+.header-left {
+  padding-left: 92px;
+  display: flex;
+  flex-flow: column;
+}
+.welcome-desc {
+  width: 480px;
+  height: 480px;
+  padding-top: 96px;
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 750;
+  font-size: 61px;
+  line-height: 73px;
+
+  color: #ffffff;
+}
+
+.yellow {
+  color: #f9be00;
+}
+
+.social-links {
+  margin-top: 25px;
+}
+
+.social-links > h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 23px;
+
+  color: #ffffff;
+}
+
+.social-links > .links {
+  display: flex;
+  flex-flow: row;
+  gap: 15px;
+  padding-top: 25px;
+  height: 60px;
+}
+
+.social-links > .links > a {
+  cursor: pointer;
+  text-decoration: none;
+  width: 40px;
+  height: 100%;
+}
+
+.social-links > .links > a > img {
+  width: 100%;
+  height: 100%;
+}
+
+.header-right {
+  width: 100%;
+  height: 100%;
+}
+
+.vector {
+  position: absolute;
+  right: 0%;
+  top: -1.81%;
+  z-index: 0;
+  overflow-x: hidden;
+}
+
+.vector2 {
+  position: absolute;
+  left: 37.08%;
+  right: 8.75%;
+  top: 17.65%;
+  bottom: 16.07%;
+  z-index: 1;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)),
+    drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.vector3 {
+  position: absolute;
+  left: 73.75%;
+  right: 11.56%;
+  top: 57.44%;
+  bottom: 12.38%;
+  z-index: 2;
+}
+
+.vector4 {
+  position: absolute;
+  left: 85%;
+  right: 4.06%;
+  top: 62.71%;
+  bottom: 14.3%;
+  z-index: 3;
+}
