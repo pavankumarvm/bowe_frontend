@@ -1,5 +1,5 @@
-import logo from "../images/logo.png";
-import comingSoon from "../images/b-comingsoon.png";
+import logo from "../../images/logo.png";
+import comingSoon from "../../images/b-comingsoon.png";
 import { Component } from "react";
 import { Link } from "react-router-dom";
 import "./comingsoonComponent.css";

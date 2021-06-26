@@ -1,0 +1,297 @@
+header {
+  position: relative;
+  top: 0px;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  background: #202020;
+}
+.header-content {
+  padding-top: 100px;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 38% 62%;
+}
+
+.header-left {
+  padding-left: 85px;
+  display: flex;
+  flex-flow: column;
+}
+
+.welcome-desc {
+  width: 450px;
+  height: 410px;
+  padding-top: 80px;
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 750;
+  font-size: 55px;
+  line-height: 65px;
+
+  color: #ffffff;
+}
+
+.yellow {
+  color: #f9be00;
+}
+
+.social-links {
+  margin-top: 25px;
+}
+
+.social-links > h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 21px;
+
+  color: #ffffff;
+}
+
+.social-links > .links {
+  display: flex;
+  flex-flow: row;
+  gap: 15px;
+  padding-top: 20px;
+  height: 60px;
+}
+
+.social-links > .links > a {
+  cursor: pointer;
+  text-decoration: none;
+  width: 40px;
+  height: 100%;
+}
+
+.social-links > .links > a > img {
+  width: 100%;
+  height: 100%;
+}
+
+.header-right {
+  width: 100%;
+  height: 100%;
+}
+
+.header-right > .vector1 {
+  position: absolute;
+  right: -1%;
+  top: -2%;
+  z-index: 0;
+  overflow-x: hidden;
+}
+
+.header-right > .vector2 {
+  position: absolute;
+  left: 37.08%;
+  right: 8.75%;
+  top: 16%;
+  z-index: 1;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)),
+    drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.header-right > .vector3 {
+  position: absolute;
+  left: 73.75%;
+  right: 11.56%;
+  top: 57.44%;
+  bottom: 12.38%;
+  z-index: 2;
+}
+
+.header-right > .vector4 {
+  position: absolute;
+  left: 85%;
+  right: 4.06%;
+  top: 62.71%;
+  bottom: 14.3%;
+  z-index: 3;
+}
+
+/* @media only screen and (max-width: 768px) {
+  .header-content {
+    display: grid;
+    grid-template-columns: 100%;
+  }
+
+  .header-left {
+    padding: 2%;
+    z-index: 1;
+  }
+
+  .welcome-desc {
+    width: 100%;
+    padding: 15% 7%;
+    height: 325px;
+    font-size: 42px;
+    line-height: 52px;
+  }
+
+  .social-links {
+    padding: 7%;
+    margin-top: 50px;
+  }
+
+  .social-links > .links {
+    gap: 10px;
+    padding-top: 10px;
+    height: 45px;
+  }
+
+  .header-right {
+    display: grid;
+    z-index: 0;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .header-right > .vector1 {
+    position: absolute;
+    left: -40%;
+    top: -3%;
+    right: -1px;
+    overflow-x: hidden;
+  }
+  .header-right > .vector1 > svg {
+    width: 130%;
+    height: 100%;
+    overflow-x: hidden;
+  }
+  .header-right > .vector2 {
+    display: none;
+  }
+  .header-right > .vector3 {
+    position: absolute;
+    left: auto;
+    top: auto;
+    right: 2%;
+    bottom: 15%;
+    z-index: 2;
+    overflow-x: hidden;
+  }
+  .header-right > .vector4 {
+    position: absolute;
+    left: 75%;
+    top: auto;
+    bottom: 16.3%;
+    z-index: 1;
+    overflow-x: hidden;
+  }
+} */
+
+@media only screen and (max-width: 768px) {
+  .header-content {
+    display: flex;
+    flex-flow: column;
+    flex-direction: column-reverse;
+    height: 100%;
+  }
+
+  .header-left {
+    display: flex;
+    width: 100%;
+    height: 55%;
+    padding: 5%;
+    padding-bottom: 15%;
+  }
+
+  .welcome-desc {
+    width: 100%;
+    padding: 1% 5% 7% 5%;
+    /* height: auto; */
+    font-size: 32px;
+    line-height: 38px;
+  }
+
+  .social-links {
+    padding: 1% 5%;
+    margin-top: 0px;
+  }
+
+  .social-links > h2 {
+    font-size: 18px;
+  }
+
+  .social-links > .links {
+    gap: 10px;
+    padding-top: 0px;
+    height: 25px;
+  }
+
+  .social-links > .links > a {
+    width: 25px;
+  }
+  .header-right {
+    display: flex;
+    width: 100%;
+    height: 45%;
+  }
+
+  .header-right > .vector1 {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    right: 0px;
+    overflow-x: hidden;
+    z-index: 1;
+  }
+  .header-right > .vector1 > svg {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+  }
+
+  .header-right > .vector2 {
+    position: absolute;
+    z-index: 2;
+    left: 0%;
+    top: 12%;
+    right: 0px;
+    overflow-x: hidden;
+    padding: 10px;
+    padding-right: 40px;
+  }
+
+  .header-right > .vector2 > svg {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+  }
+
+  .header-right > .vector3 {
+    position: absolute;
+    z-index: 3;
+    left: 48.5%;
+    top: -1%;
+    right: 18.5%;
+    overflow: hidden;
+    padding: 10px;
+  }
+
+  .header-right > .vector3 > svg {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+  }
+
+  .header-right > .vector4 {
+    position: absolute;
+    z-index: 3;
+    left: 75%;
+    right: 0%;
+    top: 0%;
+    overflow: hidden;
+    padding: 8px;
+  }
+
+  .header-right > .vector4 > svg {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+  }
+}

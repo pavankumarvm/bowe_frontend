@@ -2,12 +2,12 @@ import { Route, Switch } from "react-router-dom";
 import "jquery/dist/jquery.min.js";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-// import Courses from "./components/coursesComponent";
-// import Login from "./components/loginComponent";
-// import Register from "./components/registerComponent";
-import About from "./components/aboutComponent";
-import Home from "./components/homeComponent";
-import ComingSoon from "./components/comingsoonComponent";
+// import Courses from "./pages/courses/coursesComponent";
+// import Login from "./pages/login/loginComponent";
+// import Register from "./pages/register/registerComponent";
+import About from "./pages/about/aboutComponent";
+import Home from "./pages/home/homeComponent";
+import ComingSoon from "./components/comingsoon/comingsoonComponent";
 
 function App() {
   return (

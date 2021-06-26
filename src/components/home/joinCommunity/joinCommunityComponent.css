@@ -14,6 +14,7 @@
 .join_title {
   padding: 25px;
   font-size: 45px;
+  line-height: 55px;
   font-weight: bolder;
   color: black;
   font-family: poppins, sans-serif;
@@ -25,6 +26,7 @@
   width: 75%;
   margin: auto;
   color: black;
+  line-height: 25px;
 }
 
 .join_links {
@@ -32,22 +34,57 @@
   display: flex;
   flex-flow: row;
   justify-content: space-evenly;
-  padding: 10px;
+  padding: 50px 10px;
   margin: auto;
-  height: 180px;
+  min-height: 180px;
   width: 60%;
-  font-size: 50px;
 }
 
 .join_links > a {
   cursor: pointer;
   width: 100px;
   height: 100px;
-}
-
-.join_links > a > img {
-  width: 100%;
-  height: 100%;
   font-size: 70px;
   color: black;
+}
+
+.join_links > a > i {
+  width: 100%;
+  height: 100%;
+}
+
+.join_links > a > svg {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  padding: 15px;
+}
+
+@media only screen and (max-width: 768px) {
+  .join_community {
+    height: 100%;
+    width: 100%;
+    padding: 10% 5%;
+  }
+
+  .join_desc {
+    padding: 0px;
+  }
+
+  .join_links {
+    min-height: 60px;
+    gap: 7%;
+    min-width: 60px;
+  }
+
+  .join_links > a {
+    font-size: 45px;
+    height: 60px;
+    width: 60px;
+  }
+
+  .join_links > a > svg {
+    padding: 0%;
+    margin: 20% 0%;
+  }
 }

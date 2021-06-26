@@ -1,28 +1,6 @@
-.logo-img {
-  width: 100px;
-}
-
-.about_navbar {
-  background: transparent;
-  transition: 0.5s;
-  transition-delay: 0.5s;
-  -webkit-transition-delay: 0.5s;
-  animation: fadeout 1s;
-  -webkit-animation: fadeout 1s;
-  -moz-animation: fadeout 1s;
-  position: absolute;
-  top: 0px;
-  z-index: 10;
-  width: 100%;
-}
-
-.about_navbar:hover {
-  background: #fabe00;
-  transition: 1s;
-}
-
 .top-container {
   height: 100vh;
+  margin-bottom: 30px;
 }
 
 a {
@@ -35,15 +13,26 @@ a {
 
 #media {
   padding: 35px;
-  padding-top: 60%;
-  position: relative;
-  align-content: end;
+  display: flex;
+  flex-flow: column;
+  align-content: flex-end;
+  justify-content: flex-end;
   height: 100%;
 }
 
+#media > .img {
+  display: flex;
+  justify-self: center;
+  width: 216px;
+  margin: 25px auto;
+  height: 100px;
+  background: black;
+}
 .description {
   text-align: left;
   word-wrap: break-word;
+  display: flex;
+  align-self: flex-end;
 }
 
 .slide2 {
@@ -53,25 +42,25 @@ a {
 
 .bg-img1 {
   background: linear-gradient(rgba(250, 190, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url(../images/strip1.jpg);
+    url(../../../images/strip1.jpg);
   background-repeat: no-repeat, repeat;
   background-size: cover;
 }
 .bg-img2 {
   background: linear-gradient(rgba(250, 190, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url(../images/strip2.jpg);
+    url(../../../images/strip2.jpg);
   background-repeat: no-repeat, repeat;
   background-size: cover;
 }
 .bg-img3 {
   background: linear-gradient(rgba(250, 190, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url(../images/strip3.jpg);
+    url(../../../images/strip3.jpg);
   background-repeat: no-repeat, repeat;
   background-size: cover;
 }
 .bg-img4 {
   background: linear-gradient(rgba(250, 190, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url(../images/strip4.jpg);
+    url(../../../images/strip4.jpg);
   background-repeat: no-repeat, repeat;
   background-size: cover;
 }
@@ -187,12 +176,14 @@ a {
 .courseContainer .courseCard .courseContent .courseDesc,
 .courseContainer .courseCard .courseContent .color {
   display: flex;
+  flex-flow: column;
   justify-content: left;
-  align-items: center;
+  align-items: left;
   padding: 8px 20px;
   transition: 0.5s;
   opacity: 0;
   visibility: hidden;
+  /* list-style-type: disc; */
 }
 
 .courseContainer .courseCard:hover .courseContent .courseDesc {
@@ -391,49 +382,46 @@ a {
   display: none;
 }
 
-.who_we_are {
-  height: 100vh;
-  width: 100%;
-  display: flex;
-  flex-flow: column;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-  padding: 10%;
-  margin: auto;
+@media only screen and (max-width: 768px) {
+  .home-wrapper {
+    overflow: hidden;
+    margin: 0px;
+  }
+
+  #media {
+    padding: 0px;
+  }
+  .description {
+    padding: 25% 30px;
+    display: flex;
+    text-align: justify;
+    align-content: center;
+    font-size: 18px;
+  }
+  .myrow {
+    flex-flow: wrap;
+  }
+
+  .courseContainer .courseCard {
+    width: 50vw;
+    height: 50vh;
+  }
+
+  .courseTitle {
+    padding: 5px 10px;
+    font-size: 20px;
+  }
+  .courseContainer .courseCard .courseContent .courseDesc h3,
+  .courseContainer .courseCard .courseContent .color h3 {
+    font-size: 11px;
+  }
 }
 
-.who_title {
-  color: black;
-  padding: 25px;
-  width: 100%;
-  height: auto;
-}
-
-.who_desc {
-  color: black;
-  font-family: sans-serif;
-  font-size: 20px;
-  padding: 25px;
-  text-align: justify;
-  width: 100%;
-  margin: auto;
-  display: flex;
-  flex-flow: row;
-  gap: 5%;
-}
-
-.who_text {
-  width: 60%;
-  height: 100%;
-}
-
-.who_img {
-  width: 35%;
-  height: 100%;
-}
-
-.who_img > img {
-  width: 100%;
-  height: 100%;
+@media only screen and (max-width: 450px) {
+  .home-wrapper {
+    width: 200vw;
+  }
+  .slide1 {
+    width: 100vw;
+  }
 }

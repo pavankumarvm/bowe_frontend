@@ -1,10 +1,10 @@
 import { Component } from "react";
-import Navbar from "./navigationComponent.js";
+import Navbar from "../../navbar/navigationComponent";
 
-import facebook from "../images/b-facebook.png";
-import insta from "../images/b-insta.png";
-import discord from "../images/b-discord.png";
-import twitter from "../images/b-twitter.png";
+import facebook from "../../../images/b-facebook.png";
+import insta from "../../../images/b-insta.png";
+import discord from "../../../images/b-discord.png";
+import twitter from "../../../images/b-twitter.png";
 import "./headerComponent.css";
 
 class Header extends Component {
@@ -60,7 +60,7 @@ class Header extends Component {
               </div>
             </div>
             <div className="header-right">
-              <div className="vector">
+              <div className="vector1">
                 <svg
                   width="906"
                   height="759"
@@ -89,7 +89,7 @@ class Header extends Component {
               </div>
               <div className="vector2">
                 <svg
-                  width="780"
+                  width="700"
                   height="504"
                   viewBox="0 0 780 504"
                   fill="none"
