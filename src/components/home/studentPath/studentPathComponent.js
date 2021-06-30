@@ -580,7 +580,7 @@ class StudentPath extends Component {
                     </svg>
                   </div>
                   <div className="item-desc">
-                    Enroll with us and select one field of interest and you are
+                    Enroll with us and select one field of interest, and you are
                     ready to rock
                   </div>
                 </div>
@@ -619,8 +619,8 @@ class StudentPath extends Component {
                     </svg>
                   </div>
                   <div className="item-desc b_color s_size">
-                    Get Continous and best training for your selected field for
-                    3 months
+                    Get continuous and the best training in your selected field
+                    for 3 months.
                   </div>
                 </div>
               </div>
@@ -646,8 +646,8 @@ class StudentPath extends Component {
                     </svg>
                   </div>
                   <div className="item-desc s_size">
-                    Your growth and consistency will be mapped and will checked
-                    periodically by assessment and projects
+                    Your growth and consistency will be mapped and checked
+                    periodically by assessments and projects
                   </div>
                 </div>
               </div>
@@ -734,8 +734,9 @@ class StudentPath extends Component {
                     </svg>
                   </div>
                   <div className="item-desc">
-                    The students with best performance and skills will be moving
-                    forward for continous 6 months internship programme
+                    The students with the best performance and skills will be
+                    moving forward for a continuous 6 months internship
+                    programme
                   </div>
                 </div>
               </div>

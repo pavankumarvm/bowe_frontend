@@ -42,25 +42,25 @@ a {
 
 .bg-img1 {
   background: linear-gradient(rgba(250, 190, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url(../../../images/strip1.jpg);
+    url(../../../images/strip1.png);
   background-repeat: no-repeat, repeat;
   background-size: cover;
 }
 .bg-img2 {
   background: linear-gradient(rgba(250, 190, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url(../../../images/strip2.jpg);
+    url(../../../images/strip2.png);
   background-repeat: no-repeat, repeat;
   background-size: cover;
 }
 .bg-img3 {
   background: linear-gradient(rgba(250, 190, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url(../../../images/strip3.jpg);
+    url(../../../images/strip3.png);
   background-repeat: no-repeat, repeat;
   background-size: cover;
 }
 .bg-img4 {
   background: linear-gradient(rgba(250, 190, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url(../../../images/strip4.jpg);
+    url(../../../images/strip4.png);
   background-repeat: no-repeat, repeat;
   background-size: cover;
 }

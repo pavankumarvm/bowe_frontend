@@ -2,9 +2,9 @@ import { Component } from "react";
 import Navbar from "../../navbar/navigationComponent";
 
 import facebook from "../../../images/b-facebook.png";
-import insta from "../../../images/b-insta.png";
+import insta from "../../../images/b-instagram.png";
 import discord from "../../../images/b-discord.png";
-import twitter from "../../../images/b-twitter.png";
+import linkedin from "../../../images/b-linkedin.png";
 import "./headerComponent.css";
 
 class Header extends Component {
@@ -45,7 +45,7 @@ class Header extends Component {
                     href="https://www.linkedin.com/company/bowe-best-of-we"
                     className="linkedin"
                   >
-                    <img src={twitter} alt="linkedin" />
+                    <img src={linkedin} alt="linkedin" />
                   </a>
 
                   <a

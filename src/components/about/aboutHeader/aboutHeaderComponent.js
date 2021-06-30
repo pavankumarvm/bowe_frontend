@@ -18,9 +18,9 @@ class AboutHeader extends Component {
                   </Link>
                 </div>
                 <h3 className="description">
-                  WE ARE ON THE MISSION TO PROVIDE THE ON GROUND AND HANDS ON
-                  EXPERINCE TO EACH INDIVDUAL OF WHO’S SKILLS BEEN UNDER VALUE
-                  AND GET THE BEST OF THEM WITH BOWE (BEST OF WE)
+                  Our Mission is to present every aspiring gig with a chance to
+                  implement their knowledge & hone their practical skills,
+                  that's what BOWE stands for Best Of WE
                 </h3>
               </section>
             </div>

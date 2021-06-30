@@ -4,6 +4,7 @@ import JoinCommunity from "../../components/home/joinCommunity/joinCommunityComp
 import StudentPath from "../../components/home/studentPath/studentPathComponent";
 import RecentClients from "../../components/home/recentClients/recentClientsComponent";
 import LetsConnect from "../../components/letsConnect/letsConnectComponent";
+import Footer from "../../components/footer/footerComponent";
 import "./homeComponent.css";
 
 class Home extends Component {
@@ -15,9 +16,7 @@ class Home extends Component {
         <RecentClients></RecentClients>
         <JoinCommunity></JoinCommunity>
         <LetsConnect></LetsConnect>
-        <footer>
-          <h4>&copy; 2021,BOWE(Best Of WE) Pvt. Ltd.</h4>
-        </footer>
+        <Footer></Footer>
       </div>
     );
   }

@@ -1,7 +1,9 @@
 import { Component } from "react";
+import Navbar from "../../components/navbar/navigationComponent";
 import AboutHeader from "../../components/about/aboutHeader/aboutHeaderComponent";
 import WhoWeAre from "../../components/about/whoWeAre/whoWeAreComponent";
 import LetsConnect from "../../components/letsConnect/letsConnectComponent";
+import Footer from "../../components/footer/footerComponent";
 
 import logo from "../../images/logo.png";
 import { Link } from "react-router-dom";
@@ -12,13 +14,13 @@ class About extends Component {
     return (
       <div className="aboutUs">
         <nav
-          className="about_navbar navbar navbar-expand-lg navbar-light px-5"
+          className="about_navbar navbar navbar-expand-lg navbar-dark px-5"
           id="about_navbar"
         >
           <div className="container-fluid">
             <span className="navbar-brand">
               <Link to={"/"}>
-                <img src={logo} alt="logo" className="logo-img" />
+                <img src={logo} alt="logo" className="aboutlogo-img" />
               </Link>
             </span>
             <div className="navbar-nav">
@@ -50,6 +52,7 @@ class About extends Component {
         <AboutHeader></AboutHeader>
         <WhoWeAre></WhoWeAre>
         <LetsConnect></LetsConnect>
+        <Footer></Footer>
       </div>
     );
   }

@@ -57,12 +57,12 @@ class LetsConnect extends Component {
             <div className="letsConnect-heading">
               <h1>LET'S CONNECT</h1>
               <p>
-                When there are great ideas at stake, it’s always a good idea to
-                share. Tell us how can we make it happen for you!
+                Did you kill your great idea a billion times? Not again! Share
+                it with us and we will make it happen for you :)
                 <br />
                 <br />
                 Fill the form below or mail us at
-                <a href="/"> info@bowe.in</a>
+                <a href="/"> contact@bowe.co.in</a>
               </p>
             </div>
             <div className="letsConnect-form">
