@@ -5,7 +5,7 @@ import WhoWeAre from "../../components/about/whoWeAre/whoWeAreComponent";
 import LetsConnect from "../../components/letsConnect/letsConnectComponent";
 import Footer from "../../components/footer/footerComponent";
 
-import logo from "../../images/logo.png";
+import logo from "../../images/logo.jpeg";
 import { Link } from "react-router-dom";
 import "./aboutComponent.css";
 

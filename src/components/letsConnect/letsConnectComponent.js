@@ -1,5 +1,5 @@
 import { Component } from "react";
-import logo from "../../images/logo.png";
+import logo from "../../images/logo.jpeg";
 import SlideShow from "../slideshow/slideshowComponent";
 import StudentForm from "../forms/studentFormComponent";
 import InstituteForm from "../forms/institutesFormComponent";

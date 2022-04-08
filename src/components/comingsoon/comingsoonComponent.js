@@ -1,4 +1,4 @@
-import logo from "../../images/logo.png";
+import logo from "../../images/logo.jpeg";
 import comingSoon from "../../images/b-comingsoon.png";
 import { Component } from "react";
 import { Link } from "react-router-dom";

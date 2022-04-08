@@ -2,7 +2,7 @@ import { Component } from "react";
 import { Link } from "react-router-dom";
 import "font-awesome/css/font-awesome.min.css";
 
-import logo from "../../images/logo.png";
+import logo from "../../images/logo.jpeg";
 import "./navigationComponent.css";
 
 class Navbar extends Component {

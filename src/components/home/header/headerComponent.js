@@ -26,7 +26,7 @@ class Header extends Component {
                   <a
                     target="_blank"
                     rel="noreferrer"
-                    href="https://www.linkedin.com/company/bowe-best-of-we"
+                    href="https://www.facebook.com/BOWE-Edtech-LLP-101970188766151/"
                     className="facebook"
                   >
                     <img src={facebook} alt="facebook" />

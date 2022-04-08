@@ -18,7 +18,7 @@ class JoinCommunity extends Component {
           <a
             target="_blank"
             rel="noreferrer"
-            href="https://wwww.facebook.com"
+            href="https://www.facebook.com/BOWE-Edtech-LLP-101970188766151/"
             className="facebook"
           >
             <img src={facebook} alt="facebook" />

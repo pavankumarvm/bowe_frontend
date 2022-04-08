@@ -1,5 +1,5 @@
 import { Component } from "react";
-import logo from "../images/logo.png";
+import logo from "../images/logo.jpeg";
 
 class Header extends Component {
   // @override
